@@ -9,7 +9,6 @@ if(navToggle) {
     navMenu.classList.add('show-menu')
   })
 }
-
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if(navClose) {
