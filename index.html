@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Portfolio</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#resume" class="nav__link">
+                            <i class="uil uil-briefcase nav__icon"></i>Resume
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Project
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+
+            </div>
+
+            <div class="nav__btns">
+
+                <!-- Theme change button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"> </i>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://github.com/KylaMae01" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/Picsart_22-09-30_18-44-39-408.png" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I am </h1>
+                        <h1 class="home__title2">Kyla Mae M.</h1>
+                        <h3 class="home__subtitle">3-2</h3>
+                        <p class="home__description">Bachelor of Science in Information Technology</p>
+                        <a href="#contact" class="button button-flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/Picsart_22-10-05_00-48-32-268.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">I'm Kyla Mae F. Marbella, and I'm 21 years old from San Juan Bag-o Bulan, Sorsogon. I am a third-year student pursuing a Bachelor of Science in Information Technology. Editing is fun to me, I enjoy taking
+                        some random picture and make it fantastic image. I put a lot of effort into my work like this porfolio and also I love what I do.
+                    </p>
+                    <div class="about__buttons">
+                        <a download="" href="assets/img/KylaMae-CV.png" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!--==================== SKILLS ====================--> 
+         <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My Knowledge</span>
+                <div class="skills-content">
+            </div>
+            <div class="row">
+               <div class="skills-content">
+                  <div class="box">
+                    <h5>HTML</h5>
+                     <img src="assets/img/html.png" alt="" class="skills__img">
+                     </p>
+                  </div>
+                  <div class="box">
+                    <h5>CSS</h5>
+                    <img src="assets/img/css.png" alt="" class="skills__img">
+                    </p>
+                 </div>
+                 <div class="box">
+                    <h5>JavaScript</h5>
+                    <img src="assets/img/javascript.png" alt="" class="skills__img">
+                    </p>
+                 </div>
+                 <div class="box">
+                     <img src="assets/img/npm.png" alt="" class="skills__img">
+                     </p>
+                  </div>
+                 <div class="box">
+                    <h5>PHOTOSHOP</h5>
+                    <img src="assets/img/photoshop.png" alt="" class="skills__img">
+                    </p>
+                 </div>
+                 <div class="box">
+                    <h5>VS-CODE</h5>
+                    <img src="assets/img/vs-code.png" alt="" class="skills__img">
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+        <!--==================== RESUME ====================-->
+        <section class="resume__section" id="resume">
+            <h2 class="section__title">Resume</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="resume__container container">
+                <div class="resume__tabs">
+                    <div class="resume__button button--flex resume__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap resume__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="resume__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt resume__icon"></i>
+                        Achievement
+                    </div>
+                </div>
+
+                <div class="resume__sections">
+            <!--==================== RESUME CONTENT 1 ====================-->
+            <div class="resume__content resume__active" data-content id="education">
+             <!--==================== RESUME 1 ====================--> 
+             <div class="resume__data">
+                 <div>
+                     <h3 class="resume__title">Grade 1 - Grade 6</h3>
+                     <span class="resume__subtitle">San Juan Bag-o Elem. School</span>
+                     <div class="resume__calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        2007 - 2014
+                     </div>
+                 </div>
+
+                 <div>
+                     <span class="resume__rounder"></span>
+                     <span class="resume__line"></span>
+                 </div>
+             </div>
+             
+             <!--==================== RESUME 2 ====================--> 
+             <div class="resume__data">
+                <div></div>
+                <div>
+                   <span class="resume__rounder"></span>
+                   <span class="resume__line"></span>
+                </div>
+
+                <div>
+                    <h3 class="resume__title">Grade 7 - Grade 10</h3>
+                    <span class="resume__subtitle">San Juan Bag-o High School</span>
+                    <div class="resume__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2014 - 2018
+                    </div>
+                </div>
+            </div> 
+
+            <!--==================== RESUME 3 ====================--> 
+            <div class="resume__data">
+                <div>
+                    <h3 class="resume__title">Grade 11 - Grade 12</h3>
+                    <div class="resume__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2019 - 2020
+                    </div>
+                </div>
+
+                <div>
+                    <span class="resume__rounder"></span>
+                    <span class="resume__line"></span>
+                </div>
+            </div> 
+
+            <!--==================== RESUME 4 ====================--> 
+            <div class="resume__data">
+                <div></div>
+                <div>
+                    <span class="resume__rounder"></span>
+                   <!-- <span class="resume__line"></span> -->
+                </div>
+
+                <div>
+                    <h3 class="resume__title">1st year - 3rd year</h3>
+                    <span class="resume__subtitle">Sorsogon State University - Bulan Campus</span>
+                    <div class="resume__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2019 - 2021
+                    </div>
+                </div>
+
+                
+            </div>
+            </div>
+            
+            <!--==================== RESUME CONTENT 2 ====================-->
+            <div class="resume__content" data-content id="work">
+                <!--==================== RESUME 1 ====================--> 
+                <div class="resume__data">
+                    <div>
+                        <h3 class="resume__title">Achievement</h3>
+                        <span class="resume__subtitle">Unknown</span>
+                        <div class="resume__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2007 - 2014
+                        </div>
+                    </div>
+   
+                    <div>
+                        <span class="resume__rounder"></span>
+                        <span class="resume__line"></span>
+                    </div>
+                </div>
+                
+                <!--==================== RESUME 2 ====================--> 
+                <div class="resume__data">
+                   <div></div>
+                   <div>
+                      <span class="resume__rounder"></span>
+                      <span class="resume__line"></span>
+                   </div>
+   
+                   <div>
+                       <h3 class="resume__title">Achievement</h3>
+                       <span class="resume__subtitle">Unknown</span>
+                       <div class="resume__calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          2014 - 2018
+                       </div>
+                   </div>
+               </div> 
+   
+               <!--==================== RESUME 3 ====================--> 
+               <div class="resume__data">
+                   <div>
+                       <h3 class="resume__title">Achievement</h3>
+                       <span class="resume__subtitle">Unknown</span>
+                       <div class="resume__calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          2019 - 2020
+                       </div>
+                   </div>
+   
+                   <div>
+                       <span class="resume__rounder"></span>
+                       <!-- <span class="resume__line"></span> -->
+                   </div>
+               </div> 
+          
+               </div> 
+             
+               </div>
+            </div>
+        </section>
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">Project</h2>
+            <span class="section__subtitle">Most recent works</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+        <!--==================== PORTFOLIO 1 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/NoteApp.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Note App</h3>
+                    <p class="portfolio__description">This is a simple program that uses Javascript to manage simple Notes on the web..</p>
+                    <a href="https://github.com/KylaMae01/note_app_kylamae_marbella" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+                <!--==================== PORTFOLIO 2 ====================-->
+        
+   <div class="portfolio__content grid swiper-slide">
+    <img src="assets/img/WeatherApp.png" alt="" class="portfolio__img">
+
+    <div class="portfolio_">
+        <h3 class="portfolio__title">Weather App</h3>
+        <p class="portfolio__description">An interesting project called the Weather App in JavaScript concentrates on basic weather forecasting.</p>
+        <a href="https://kylamae01.github.io/IT-ELEC-3-Weather-App/" class="button button--flex button--small portfolio__button">
+            Demo
+            <i class="uil uil-arrow-right button__icon"></i>
+        </a>
+    </div>
+</div>
+        <!--==================== PORTFOLIO 3  ====================-->
+        
+        <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/ChatApp.png" alt="" class="portfolio__img">
+
+            <div class="portfolio_">
+                <h3 class="portfolio__title">Real Time Chat App </h3>
+                <p class="portfolio__description">Real-time chat is an communication channel that allows you to have conversations in real time. It entails sending live text messages from the sender to the recipient.</p>
+                <a href="https://github.com/KylaMae01/IT-ELEC-3-Real-Time-Chat-App" class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/DOM Cart.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">DOM CART Activity</h3>
+                    <p class="portfolio__description">In the second year, we have a group activity "Shopping Cart" where you can add and remove items from your cart. Simply download the zip code in the demo below.</p>
+                    <a href="https://github.com/DejucosAileen/IT-213-DOM-CART-ACTIVITY" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+             <!--==================== PORTFOLIO 5 ====================-->
+        
+             <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/Sending Email.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Email Sending with Form </h3>
+                    <p class="portfolio__description">This is our second activity in 2nd year "Email Sending Form", where you can send email.</p>
+                    <a href="https://github.com/DejucosAileen/IT-213-SENDING-EMAIL" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+                <!--==================== PORTFOLIO 6 ====================-->
+        
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/Car Insurance.png" alt="" class="portfolio__img">
+    
+                    <div class="portfolio_">
+                        <h3 class="portfolio__title">Car Insurance </h3>
+                        <p class="portfolio__description">This is our third activity in 2nd year "Car Insurance".</p>
+                        <a href="https://github.com/DejucosAileen/IT---213---Car-Insurance" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                   <!--==================== PORTFOLIO 7 ====================-->
+        
+                   <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/WeeklyBudgetApp.png" alt="" class="portfolio__img">
+    
+                    <div class="portfolio_">
+                        <h3 class="portfolio__title">Weekly Budget App</h3>
+                        <p class="portfolio__description">This is our fourth activity in 2nd year "Weekly Budget App".</p>
+                        <a href="https://github.com/DejucosAileen/IT-213-WEEKLY-BUDGET" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 8 ====================-->
+        
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/NameGenerator.png" alt="" class="portfolio__img">
+    
+                    <div class="portfolio_">
+                        <h3 class="portfolio__title">Name Generator</h3>
+                        <p class="portfolio__description">This is our fifth activity in 2nd year "Name Generator", that can generate different names.</p>
+                        <a href="https://github.com/DejucosAileen/IT-213-NAME-GENERATOR" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 9 ====================-->
+        
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/Cryto.png" alt="" class="portfolio__img">
+    
+                    <div class="portfolio_">
+                        <h3 class="portfolio__title">Cryptocurrencies Rates</h3>
+                        <p class="portfolio__description">This is our sixth activity in 2nd year "Cryptocurrencies Rates".</p>
+                        <a href="https://github.com/DejucosAileen/IT-213-CRYPTOCURRENCIES" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+    <!--==================== PORTFOLIO 10 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/Cocktail.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Perfect Cocktail- a drink recipe app </h3>
+                    <p class="portfolio__description">This is our last activity in 2nd year "Perfect Cocktail- a drink recipe app".</p>
+                        <a href="https://github.com/DejucosAileen/IT-213-COCKTAIL" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+                </div>
+
+            <!-- add arrows-->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            
+        
+        </div>
+
+        </section>
+        
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contatc__subtitle">(63) 912 5157 532 </span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contatc__subtitle">kylamaemarbella65@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contatc__subtitle">San Juan Bag-o, Bulan Sorsogon</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Kyla Mae Marbella</h1>
+                    <span class="footer__subtitle">BSIT 3-2</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#portfolio" class="footer__link">Project</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/kylamae.marbella.9" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="http://www.instagram.com/killamiii/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://mobile.twitter.com/itsmekillamii" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
